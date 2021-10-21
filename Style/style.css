@@ -1,0 +1,317 @@
+*{
+    margin: 0;
+    <!-- 
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+.max-width{
+    max-width: 1300;
+    padding: 0 80px;
+    margin: auto;
+}
+
+/* navbar styling */
+.navbar{
+position: fixed;
+width: 100%;
+padding: 30px 0;
+background: #060404;
+font-family: 'Ubuntu', sans-serif;
+
+}
+.navbar.sticky{
+  padding: 30px 0;
+background: #060404;
+}
+.navbar .menu{
+  text-align: end;
+}
+.navbar .max-width{
+    display: flex;
+    align-items: center;
+    justify-content: right;
+  }
+  .navbar .logo a{
+    color: #fff;
+    font-size: 35px;
+    font-weight: 600;
+  }
+  .navbar.stick .logo a span{
+    color: crimson; 
+  }
+  .navbar .logo a:hover{
+    color: crimson;
+    transition: color 0.3s ease;
+  }
+  .navbar .menu li{
+    list-style: none;
+    display: inline-block;
+    margin-left: 1em;
+  }
+  .navbar .menu li a{
+    color: crimson;
+    font-size: 18px;
+    font-weight: 500;
+    margin-left: 25px;
+    transition: color 0.3s ease;
+  }
+  .navbar .menu li a:hover{
+    color: #fff;
+
+  }
+
+  html{
+    scroll-behavior: smooth;
+  }
+
+  /* home section styling */
+  .home{
+    display: flex;
+    background: url("../Images/Air\ Jordan\ white\ x\ red.jpg_large") no-repeat center;
+    height: 100vh;
+    background-size: cover;
+    color: crimson;
+    min-height: 500px;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bold;
+  }
+  .home .max-width{
+    margin: auto 0 auto 40px;
+  }
+  .home .home-content .text-1{
+    font-size: 27px;
+  }
+  .home .home-content .text-2{
+    font-size: 72px;
+    font-weight: 600;
+    margin-left: -3px;
+  }
+  .home .home-content .text-3{
+    font-size: 40px;
+    margin: 5px 0;
+  }
+  .home .home-content .text-3 span{
+    color: black;
+    font-weight: 500s;
+  }
+  .text2{
+    font-size: 15px;
+    text-align: right;
+    color: #fff;
+    font-family: 'Times New Roman', Times, serif;
+  }
+
+
+  section{
+
+    padding: 100px 0;
+
+}
+
+
+
+.about, .project{
+
+    font-family: 'Work Sans', sans-serif;
+
+}
+
+.about .title{
+
+    position: relative;
+
+    font-family: 'Ubuntu', sans-serif;
+
+    font-size: 40px;
+
+    font-weight: 500;
+
+    margin-bottom: 60px;
+
+    padding-bottom: 20px;
+
+    text-align: center;
+
+}
+
+
+
+.about .title::before{
+
+    content: "";
+    position: absolute;
+    bottom: 0px;
+    left: 50%;
+    width: 180px;
+    height: 3px;
+    background: #111;
+    transform: translateX(-50%);
+
+
+
+
+}
+
+
+
+.about .about-content .left img{
+
+    height: 400px;
+
+    width: 400px;
+
+    object-fit: cover;
+  }
+
+.about-random-image{
+   float: right;
+    height: 200px;
+    width: 300px;
+    border-radius: 0%;
+    margin: 15px;
+}
+.about .about-content{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+}
+.about .about-content .left{
+  width: 45%;
+  
+}
+
+.about .about-content .left img{
+  height: 400px;
+  width: 400px;
+  object-fit: cover;
+  border-radius: 6px;
+}
+ .about .about-content .right{
+  width: 55%;
+  
+} 
+
+.about .about-content .right .text{
+  font-size: 25px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+
+
+/* Project styling here */
+
+.project{
+
+  font-family: 'Work Sans', sans-serif;
+
+}
+
+
+.project .title{
+
+  position: relative;
+
+  font-family: 'Ubuntu', sans-serif;
+
+  font-size: 40px;
+
+  font-weight: 500;
+
+  margin-bottom: 60px;
+
+  padding-bottom: 20px;
+
+  text-align: center;
+
+}
+
+
+
+.project .title::before{
+content: "";
+position: absolute;
+bottom: 0px;
+left: 50%;
+width: 180px;
+height: 3px;
+background: #111;
+transform: translateX(-50%);
+
+}
+
+
+
+.project .project-content .left img{
+
+  height: 400px;
+
+  width: 400px;
+
+  object-fit: cover;
+}
+
+.project-random-image{
+ float: right;
+  height: 200px;
+  width: 300px;
+  border-radius: 0%;
+  margin: 15px;
+}
+.project .project-content{
+display: flex;
+flex-wrap: wrap;
+align-items: center;
+justify-content: space-between;
+}
+.project .project-content .left{
+width: 45%;
+
+}
+
+.project .project-content .left img{
+height: 400px;
+width: 400px;
+object-fit: cover;
+border-radius: 6px;
+}
+.project .project-content .right{
+width: 55%;
+
+} 
+
+.project .project-content .right .text{
+font-size: 25px;
+font-weight: 600;
+margin-bottom: 10px;
+}
+/* Project styling project*/
+.project{
+  color: #fff;
+  background: #111;
+}
+
+
+
+/* Project styling project*/
+.vann{
+  border-image-width: 200px;
+}
+img{
+  width: 450px;
+}
+table{
+  width: 100%;
+  text-align: center;
+}
+/* Social media styling Social media*/
+.Social{
+  color: crimson;
+  background: #fff  ;
+}
+
+
+
+
