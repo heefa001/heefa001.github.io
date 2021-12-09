@@ -1,6 +1,5 @@
 *{
-    margin: 0;
-    <!-- 
+    margin: 0; 
     padding: 0;
     box-sizing: border-box;
     text-decoration: none;
@@ -17,8 +16,9 @@
 .navbar{
 position: fixed;
 width: 100%;
+z-index: 999;
 padding: 30px 0;
-background: #060404;
+background: chocolate;
 font-family: 'Ubuntu', sans-serif;
 
 }
@@ -32,7 +32,7 @@ background: #060404;
 .navbar .max-width{
     display: flex;
     align-items: center;
-    justify-content: right;
+    justify-content:space-between;
   }
   .navbar .logo a{
     color: #fff;
@@ -52,7 +52,7 @@ background: #060404;
     margin-left: 1em;
   }
   .navbar .menu li a{
-    color: crimson;
+    color: #111;
     font-size: 18px;
     font-weight: 500;
     margin-left: 25px;
@@ -70,11 +70,11 @@ background: #060404;
   /* home section styling */
   .home{
     display: flex;
-    background: url("../Images/Air\ Jordan\ white\ x\ red.jpg_large") no-repeat center;
+    background-image: url(../Images/AHO\ 2.0.jpg);
     height: 100vh;
     background-size: cover;
-    color: crimson;
-    min-height: 500px;
+    color: #fff;
+    min-height: 300px;
     font-family: 'Ubuntu', sans-serif;
     font-weight: bold;
   }
@@ -94,7 +94,7 @@ background: #060404;
     margin: 5px 0;
   }
   .home .home-content .text-3 span{
-    color: black;
+    color: coral ;
     font-weight: 500s;
   }
   .text2{
@@ -292,7 +292,7 @@ margin-bottom: 10px;
 /* Project styling project*/
 .project{
   color: #fff;
-  background: #111;
+  background: chocolate;
 }
 
 
@@ -306,12 +306,13 @@ img{
 }
 table{
   width: 100%;
-  text-align: center;
+  text-align:end;
 }
 /* Social media styling Social media*/
 .Social{
-  color: crimson;
+  color: chocolate;
   background: #fff  ;
+  padding-block: 20px;
 }
 
 
